@@ -9,6 +9,7 @@ marcus.payedocteur(docteur)
 docteur.patientout(marcus)
 marcus.goTo(salledattente,pharmacie)
 marcus.traitement(marcus)
+console.log("         -----------------         ");
 
 
 console.log(`dans la ${salledattente.nom} il ya ${salledattente.nbrP.length} personne`);
@@ -19,6 +20,9 @@ docteur.patientout(optimus)
 optimus.goTo(salledattente,pharmacie)
 optimus.traitement(optimus)
 optimus.takecare()
+console.log("         -----------------         ");
+
+
 
 console.log(`dans la ${salledattente.nom} il ya ${salledattente.nbrP.length} personne`);
 docteur.patientin(sangoku)
@@ -27,6 +31,8 @@ sangoku.payedocteur(docteur)
 docteur.patientout(sangoku)
 sangoku.goTo(salledattente,pharmacie)
 sangoku.traitement(sangoku)
+console.log("         -----------------         ");
+
 
 console.log(`dans la ${salledattente.nom} il ya ${salledattente.nbrP.length} personne`);
 docteur.patientin(darthvader)
@@ -36,6 +42,8 @@ docteur.patientout(darthvader)
 darthvader.goTo(salledattente,pharmacie)
 darthvader.traitement(darthvader)
 darthvader.takecare()
+console.log("         -----------------         ");
+
 
 console.log(`dans la ${salledattente.nom} il ya ${salledattente.nbrP.length} personne`);
 docteur.patientin(semicolon)
@@ -44,6 +52,7 @@ semicolon.payedocteur(docteur)
 docteur.patientout(semicolon)
 semicolon.goTo(salledattente,pharmacie)
 semicolon.traitement(semicolon)
+console.log("         -----------------         ");
 
 
 }
